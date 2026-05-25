@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    padding: 50px 50px;
+    background-color: rgb(254, 254, 254);
+    margin: 80px;
+    border-radius: 10px;
+}
+form, form div, form label, .heading, h1{
+    background-color: rgb(254, 254, 254);
+}
+
+.registerbody{
+    background-color: rgb(24, 95, 226);
+}
+.dashboard{
+    background-color: #ebe2bd;
+}
