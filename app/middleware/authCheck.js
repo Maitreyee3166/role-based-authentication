@@ -12,7 +12,11 @@ const AuthCheck=(req,res,next)=>{
             req.user=data;
             next();
         })
-    }else{
+    } else{
+        return res.status(400).json({
+            status:false,
+            message:'Token is required for access this url'
+        })
         next();
     }
     
